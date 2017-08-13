@@ -1,15 +1,21 @@
 //
-//  mTraktTVTests.swift
-//  mTraktTVTests
+//  IDsMovieTests.swift
+//  mTraktTV
 //
 //  Created by Rodrigo A E Miyashiro on 13/08/17.
 //  Copyright © 2017 Rodrigo Miyashiro. All rights reserved.
 //
 
 import XCTest
+import SwiftyJSON
+
 @testable import mTraktTV
 
-class mTraktTVTests: XCTestCase {
+class IDsMovieTests: XCTestCase
+{
+    
+    let idsMovieSimple = IdsMovie()
+    let idsMovieWithData = IdsMovie(trakt: 1, slug: "test-2017", imdb: "xyz123", tmdb: 11)
     
     override func setUp() {
         super.setUp()
@@ -21,16 +27,22 @@ class mTraktTVTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    
+    func testIdsMovieSimple()
+    {
+        XCTAssertTrue(idsMovieSimple.trakt == 0)
+    }
+    
+    func testIdsMovieWithData()
+    {
+        XCTAssertTrue(idsMovieWithData.trakt == 1)
     }
     
 }

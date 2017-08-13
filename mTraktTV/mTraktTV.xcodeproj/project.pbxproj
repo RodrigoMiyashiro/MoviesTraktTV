@@ -16,8 +16,13 @@
 		C6A983091F40AF3F00EB7290 /* mTraktTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6A983071F40AF3F00EB7290 /* mTraktTV.xcdatamodeld */; };
 		C6A9830B1F40AF3F00EB7290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A9830A1F40AF3F00EB7290 /* Assets.xcassets */; };
 		C6A9830E1F40AF3F00EB7290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A9830C1F40AF3F00EB7290 /* LaunchScreen.storyboard */; };
-		C6A983191F40AF4000EB7290 /* mTraktTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983181F40AF4000EB7290 /* mTraktTVTests.swift */; };
 		C6A983241F40AF4000EB7290 /* mTraktTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983231F40AF4000EB7290 /* mTraktTVUITests.swift */; };
+		C6A983331F40B80100EB7290 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983321F40B80100EB7290 /* Movie.swift */; };
+		C6A983351F40B86000EB7290 /* MovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983341F40B86000EB7290 /* MovieTests.swift */; };
+		C6A983371F40C36A00EB7290 /* IdsMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983361F40C36A00EB7290 /* IdsMovie.swift */; };
+		C6A983391F40C6EF00EB7290 /* IDsMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983381F40C6EF00EB7290 /* IDsMovieTests.swift */; };
+		C6A9833D1F40C8F100EB7290 /* MoveiViewModelTestes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9833C1F40C8F100EB7290 /* MoveiViewModelTestes.swift */; };
+		C6A9833F1F40C90B00EB7290 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9833E1F40C90B00EB7290 /* MovieViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +57,16 @@
 		C6A9830D1F40AF3F00EB7290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6A9830F1F40AF3F00EB7290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6A983141F40AF4000EB7290 /* mTraktTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mTraktTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6A983181F40AF4000EB7290 /* mTraktTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mTraktTVTests.swift; sourceTree = "<group>"; };
 		C6A9831A1F40AF4000EB7290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6A9831F1F40AF4000EB7290 /* mTraktTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mTraktTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A983231F40AF4000EB7290 /* mTraktTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mTraktTVUITests.swift; sourceTree = "<group>"; };
 		C6A983251F40AF4000EB7290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A983321F40B80100EB7290 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C6A983341F40B86000EB7290 /* MovieTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTests.swift; sourceTree = "<group>"; };
+		C6A983361F40C36A00EB7290 /* IdsMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdsMovie.swift; sourceTree = "<group>"; };
+		C6A983381F40C6EF00EB7290 /* IDsMovieTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDsMovieTests.swift; sourceTree = "<group>"; };
+		C6A9833C1F40C8F100EB7290 /* MoveiViewModelTestes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveiViewModelTestes.swift; sourceTree = "<group>"; };
+		C6A9833E1F40C90B00EB7290 /* MovieViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		C7D7F5EDA47D16EC87082451 /* Pods_mTraktTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mTraktTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4638898BB01DD9F92A32A0 /* Pods_mTraktTVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mTraktTVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1617C0610EC59B9F142DF89 /* Pods-mTraktTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mTraktTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-mTraktTV/Pods-mTraktTV.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				C6A983001F40AF3F00EB7290 /* AppDelegate.swift */,
+				C6A983401F40CF3A00EB7290 /* Utils */,
+				C6A983311F40B7E800EB7290 /* Movie */,
 				C6A983021F40AF3F00EB7290 /* ViewController.swift */,
 				C6A983041F40AF3F00EB7290 /* Main.storyboard */,
 				C6A9830A1F40AF3F00EB7290 /* Assets.xcassets */,
@@ -153,8 +165,10 @@
 		C6A983171F40AF4000EB7290 /* mTraktTVTests */ = {
 			isa = PBXGroup;
 			children = (
-				C6A983181F40AF4000EB7290 /* mTraktTVTests.swift */,
 				C6A9831A1F40AF4000EB7290 /* Info.plist */,
+				C6A983341F40B86000EB7290 /* MovieTests.swift */,
+				C6A983381F40C6EF00EB7290 /* IDsMovieTests.swift */,
+				C6A9833C1F40C8F100EB7290 /* MoveiViewModelTestes.swift */,
 			);
 			path = mTraktTVTests;
 			sourceTree = "<group>";
@@ -166,6 +180,47 @@
 				C6A983251F40AF4000EB7290 /* Info.plist */,
 			);
 			path = mTraktTVUITests;
+			sourceTree = "<group>";
+		};
+		C6A983311F40B7E800EB7290 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				C6A983321F40B80100EB7290 /* Movie.swift */,
+				C6A983361F40C36A00EB7290 /* IdsMovie.swift */,
+				C6A9833E1F40C90B00EB7290 /* MovieViewModel.swift */,
+			);
+			name = Movie;
+			sourceTree = "<group>";
+		};
+		C6A983401F40CF3A00EB7290 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C6A983421F40CF4A00EB7290 /* Requests */,
+				C6A983431F40CF5600EB7290 /* Manager Requests */,
+				C6A983411F40CF4500EB7290 /* Enum */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		C6A983411F40CF4500EB7290 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Enum;
+			sourceTree = "<group>";
+		};
+		C6A983421F40CF4A00EB7290 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		C6A983431F40CF5600EB7290 /* Manager Requests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Manager Requests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +306,7 @@
 					C6A983131F40AF4000EB7290 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 4DRM7LH39Z;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C6A982FC1F40AF3F00EB7290;
 					};
@@ -454,7 +510,10 @@
 			files = (
 				C6A983091F40AF3F00EB7290 /* mTraktTV.xcdatamodeld in Sources */,
 				C6A983031F40AF3F00EB7290 /* ViewController.swift in Sources */,
+				C6A983331F40B80100EB7290 /* Movie.swift in Sources */,
 				C6A983011F40AF3F00EB7290 /* AppDelegate.swift in Sources */,
+				C6A983371F40C36A00EB7290 /* IdsMovie.swift in Sources */,
+				C6A9833F1F40C90B00EB7290 /* MovieViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +521,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6A983191F40AF4000EB7290 /* mTraktTVTests.swift in Sources */,
+				C6A983351F40B86000EB7290 /* MovieTests.swift in Sources */,
+				C6A983391F40C6EF00EB7290 /* IDsMovieTests.swift in Sources */,
+				C6A9833D1F40C8F100EB7290 /* MoveiViewModelTestes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,11 +697,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4DRM7LH39Z;
 				INFOPLIST_FILE = mTraktTVTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmiyashiro.mTraktTVTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mTraktTV.app/mTraktTV";
 			};
@@ -652,6 +715,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4DRM7LH39Z;
 				INFOPLIST_FILE = mTraktTVTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -711,6 +775,7 @@
 				C6A9832A1F40AF4000EB7290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6A9832B1F40AF4000EB7290 /* Build configuration list for PBXNativeTarget "mTraktTVTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +784,7 @@
 				C6A9832D1F40AF4000EB7290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6A9832E1F40AF4000EB7290 /* Build configuration list for PBXNativeTarget "mTraktTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +793,7 @@
 				C6A983301F40AF4000EB7290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
