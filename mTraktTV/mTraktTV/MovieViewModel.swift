@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class MovieViewModel: NSObject
 {
@@ -17,8 +18,24 @@ class MovieViewModel: NSObject
         movies = [Movie]()
     }
     
-    private func loadMovieList()
+    func loadMovieList()
     {
-        
+        RequestMovie.getMovies { (result) in
+            if let jsonArrayData = result as? [JSON]
+            {
+                for json in jsonArrayData
+                {
+                    let newMovie = Movie(dataJSON: json)
+                    self.movies.append(newMovie)
+                }
+                
+                print("--\n\(self.movies)\n")
+            }
+            
+            if let error = result as? Error
+            {
+                print("-->> Error Get Popular Movies: \(error)")
+            }
+        }
     }
 }

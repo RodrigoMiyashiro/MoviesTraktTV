@@ -24,7 +24,7 @@ class IdsMovie: NSObject
         tmdb = 0
     }
     
-    required init(trakt: Int, slug: String, imdb: String, tmdb: Int)
+    init(trakt: Int, slug: String, imdb: String, tmdb: Int)
     {
         self.trakt = trakt
         self.slug = slug
@@ -32,9 +32,8 @@ class IdsMovie: NSObject
         self.tmdb = tmdb
     }
     
-    convenience required init(dataJSON: JSON)
+    init(dataJSON: JSON)
     {
-        self.init()
         self.trakt = dataJSON["trakt"].intValue
         self.slug = dataJSON["slug"].stringValue
         self.imdb = dataJSON["imdb"].stringValue

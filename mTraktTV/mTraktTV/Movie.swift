@@ -15,6 +15,7 @@ class Movie: NSObject
     var year: Int
     var ids: IdsMovie
     
+    
     override init()
     {
         title = ""
@@ -22,16 +23,15 @@ class Movie: NSObject
         ids = IdsMovie()
     }
     
-    required init(title: String, year: Int, trakt: Int, slug: String, imdb: String, tmdb: Int)
+    init(title: String, year: Int, trakt: Int, slug: String, imdb: String, tmdb: Int)
     {
         self.title = title
         self.year = year
         self.ids = IdsMovie(trakt: trakt, slug: slug, imdb: imdb, tmdb: tmdb)
     }
     
-    convenience required init(dataJSON: JSON)
+    init(dataJSON: JSON)
     {
-        self.init()
         self.title = dataJSON["title"].stringValue
         self.year = dataJSON["year"].intValue
         self.ids = IdsMovie(dataJSON: dataJSON["ids"])

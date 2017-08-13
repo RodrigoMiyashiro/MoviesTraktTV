@@ -23,6 +23,23 @@
 		C6A983391F40C6EF00EB7290 /* IDsMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983381F40C6EF00EB7290 /* IDsMovieTests.swift */; };
 		C6A9833D1F40C8F100EB7290 /* MoveiViewModelTestes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9833C1F40C8F100EB7290 /* MoveiViewModelTestes.swift */; };
 		C6A9833F1F40C90B00EB7290 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9833E1F40C90B00EB7290 /* MovieViewModel.swift */; };
+		C6A983451F40D01900EB7290 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983441F40D01900EB7290 /* Request.swift */; };
+		C6A983471F40D08E00EB7290 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983461F40D08E00EB7290 /* RequestTests.swift */; };
+		C6A983491F40D0D200EB7290 /* RequestMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983481F40D0D200EB7290 /* RequestMovie.swift */; };
+		C6A9834C1F40D18A00EB7290 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9834B1F40D18A00EB7290 /* Header.swift */; };
+		C6A9834E1F40D30600EB7290 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9834D1F40D30600EB7290 /* Enums.swift */; };
+		C6A983501F40DFE300EB7290 /* RequestLibImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9834F1F40DFE300EB7290 /* RequestLibImages.swift */; };
+		C6A983521F40ECD400EB7290 /* RequestLibWithImgsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983511F40ECD400EB7290 /* RequestLibWithImgsTests.swift */; };
+		C6A983551F40ED2300EB7290 /* MovieImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983541F40ED2300EB7290 /* MovieImage.swift */; };
+		C6A983571F40ED3500EB7290 /* MovieImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983561F40ED3500EB7290 /* MovieImageTests.swift */; };
+		C6A983591F40EEF700EB7290 /* ImageElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983581F40EEF700EB7290 /* ImageElement.swift */; };
+		C6A9835B1F40F19D00EB7290 /* ImagePoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9835A1F40F19D00EB7290 /* ImagePoster.swift */; };
+		C6A9835D1F40F1B000EB7290 /* ImageThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9835C1F40F1B000EB7290 /* ImageThumb.swift */; };
+		C6A9835F1F40F1BD00EB7290 /* ImageBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9835E1F40F1BD00EB7290 /* ImageBackground.swift */; };
+		C6A983611F40F36A00EB7290 /* ImageElementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983601F40F36A00EB7290 /* ImageElementTests.swift */; };
+		C6A983631F40F37500EB7290 /* ImagePosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983621F40F37500EB7290 /* ImagePosterTests.swift */; };
+		C6A983651F40F38500EB7290 /* ImageThumbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983641F40F38500EB7290 /* ImageThumbTests.swift */; };
+		C6A983671F40F38F00EB7290 /* ImageBackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983661F40F38F00EB7290 /* ImageBackgroundTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +84,23 @@
 		C6A983381F40C6EF00EB7290 /* IDsMovieTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDsMovieTests.swift; sourceTree = "<group>"; };
 		C6A9833C1F40C8F100EB7290 /* MoveiViewModelTestes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveiViewModelTestes.swift; sourceTree = "<group>"; };
 		C6A9833E1F40C90B00EB7290 /* MovieViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		C6A983441F40D01900EB7290 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		C6A983461F40D08E00EB7290 /* RequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
+		C6A983481F40D0D200EB7290 /* RequestMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestMovie.swift; sourceTree = "<group>"; };
+		C6A9834B1F40D18A00EB7290 /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		C6A9834D1F40D30600EB7290 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		C6A9834F1F40DFE300EB7290 /* RequestLibImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestLibImages.swift; sourceTree = "<group>"; };
+		C6A983511F40ECD400EB7290 /* RequestLibWithImgsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestLibWithImgsTests.swift; sourceTree = "<group>"; };
+		C6A983541F40ED2300EB7290 /* MovieImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieImage.swift; sourceTree = "<group>"; };
+		C6A983561F40ED3500EB7290 /* MovieImageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieImageTests.swift; sourceTree = "<group>"; };
+		C6A983581F40EEF700EB7290 /* ImageElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageElement.swift; sourceTree = "<group>"; };
+		C6A9835A1F40F19D00EB7290 /* ImagePoster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePoster.swift; sourceTree = "<group>"; };
+		C6A9835C1F40F1B000EB7290 /* ImageThumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageThumb.swift; sourceTree = "<group>"; };
+		C6A9835E1F40F1BD00EB7290 /* ImageBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBackground.swift; sourceTree = "<group>"; };
+		C6A983601F40F36A00EB7290 /* ImageElementTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageElementTests.swift; sourceTree = "<group>"; };
+		C6A983621F40F37500EB7290 /* ImagePosterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePosterTests.swift; sourceTree = "<group>"; };
+		C6A983641F40F38500EB7290 /* ImageThumbTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageThumbTests.swift; sourceTree = "<group>"; };
+		C6A983661F40F38F00EB7290 /* ImageBackgroundTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBackgroundTests.swift; sourceTree = "<group>"; };
 		C7D7F5EDA47D16EC87082451 /* Pods_mTraktTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mTraktTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4638898BB01DD9F92A32A0 /* Pods_mTraktTVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mTraktTVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1617C0610EC59B9F142DF89 /* Pods-mTraktTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mTraktTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-mTraktTV/Pods-mTraktTV.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +203,13 @@
 				C6A983341F40B86000EB7290 /* MovieTests.swift */,
 				C6A983381F40C6EF00EB7290 /* IDsMovieTests.swift */,
 				C6A9833C1F40C8F100EB7290 /* MoveiViewModelTestes.swift */,
+				C6A983461F40D08E00EB7290 /* RequestTests.swift */,
+				C6A983511F40ECD400EB7290 /* RequestLibWithImgsTests.swift */,
+				C6A983561F40ED3500EB7290 /* MovieImageTests.swift */,
+				C6A983601F40F36A00EB7290 /* ImageElementTests.swift */,
+				C6A983621F40F37500EB7290 /* ImagePosterTests.swift */,
+				C6A983641F40F38500EB7290 /* ImageThumbTests.swift */,
+				C6A983661F40F38F00EB7290 /* ImageBackgroundTests.swift */,
 			);
 			path = mTraktTVTests;
 			sourceTree = "<group>";
@@ -185,6 +226,7 @@
 		C6A983311F40B7E800EB7290 /* Movie */ = {
 			isa = PBXGroup;
 			children = (
+				C6A983531F40ECFE00EB7290 /* Image */,
 				C6A983321F40B80100EB7290 /* Movie.swift */,
 				C6A983361F40C36A00EB7290 /* IdsMovie.swift */,
 				C6A9833E1F40C90B00EB7290 /* MovieViewModel.swift */,
@@ -195,6 +237,7 @@
 		C6A983401F40CF3A00EB7290 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C6A9834A1F40D17300EB7290 /* Header */,
 				C6A983421F40CF4A00EB7290 /* Requests */,
 				C6A983431F40CF5600EB7290 /* Manager Requests */,
 				C6A983411F40CF4500EB7290 /* Enum */,
@@ -205,6 +248,7 @@
 		C6A983411F40CF4500EB7290 /* Enum */ = {
 			isa = PBXGroup;
 			children = (
+				C6A9834D1F40D30600EB7290 /* Enums.swift */,
 			);
 			name = Enum;
 			sourceTree = "<group>";
@@ -212,6 +256,7 @@
 		C6A983421F40CF4A00EB7290 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
+				C6A983441F40D01900EB7290 /* Request.swift */,
 			);
 			name = Requests;
 			sourceTree = "<group>";
@@ -219,8 +264,30 @@
 		C6A983431F40CF5600EB7290 /* Manager Requests */ = {
 			isa = PBXGroup;
 			children = (
+				C6A983481F40D0D200EB7290 /* RequestMovie.swift */,
+				C6A9834F1F40DFE300EB7290 /* RequestLibImages.swift */,
 			);
 			name = "Manager Requests";
+			sourceTree = "<group>";
+		};
+		C6A9834A1F40D17300EB7290 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				C6A9834B1F40D18A00EB7290 /* Header.swift */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		C6A983531F40ECFE00EB7290 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C6A983541F40ED2300EB7290 /* MovieImage.swift */,
+				C6A983581F40EEF700EB7290 /* ImageElement.swift */,
+				C6A9835A1F40F19D00EB7290 /* ImagePoster.swift */,
+				C6A9835C1F40F1B000EB7290 /* ImageThumb.swift */,
+				C6A9835E1F40F1BD00EB7290 /* ImageBackground.swift */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,11 +576,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6A983091F40AF3F00EB7290 /* mTraktTV.xcdatamodeld in Sources */,
+				C6A9834C1F40D18A00EB7290 /* Header.swift in Sources */,
+				C6A9835B1F40F19D00EB7290 /* ImagePoster.swift in Sources */,
+				C6A9835F1F40F1BD00EB7290 /* ImageBackground.swift in Sources */,
+				C6A9834E1F40D30600EB7290 /* Enums.swift in Sources */,
+				C6A9835D1F40F1B000EB7290 /* ImageThumb.swift in Sources */,
+				C6A983451F40D01900EB7290 /* Request.swift in Sources */,
 				C6A983031F40AF3F00EB7290 /* ViewController.swift in Sources */,
 				C6A983331F40B80100EB7290 /* Movie.swift in Sources */,
 				C6A983011F40AF3F00EB7290 /* AppDelegate.swift in Sources */,
 				C6A983371F40C36A00EB7290 /* IdsMovie.swift in Sources */,
+				C6A983491F40D0D200EB7290 /* RequestMovie.swift in Sources */,
 				C6A9833F1F40C90B00EB7290 /* MovieViewModel.swift in Sources */,
+				C6A983591F40EEF700EB7290 /* ImageElement.swift in Sources */,
+				C6A983551F40ED2300EB7290 /* MovieImage.swift in Sources */,
+				C6A983501F40DFE300EB7290 /* RequestLibImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,9 +598,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A983521F40ECD400EB7290 /* RequestLibWithImgsTests.swift in Sources */,
 				C6A983351F40B86000EB7290 /* MovieTests.swift in Sources */,
+				C6A983471F40D08E00EB7290 /* RequestTests.swift in Sources */,
 				C6A983391F40C6EF00EB7290 /* IDsMovieTests.swift in Sources */,
+				C6A983631F40F37500EB7290 /* ImagePosterTests.swift in Sources */,
+				C6A983611F40F36A00EB7290 /* ImageElementTests.swift in Sources */,
+				C6A983571F40ED3500EB7290 /* MovieImageTests.swift in Sources */,
+				C6A983651F40F38500EB7290 /* ImageThumbTests.swift in Sources */,
 				C6A9833D1F40C8F100EB7290 /* MoveiViewModelTestes.swift in Sources */,
+				C6A983671F40F38F00EB7290 /* ImageBackgroundTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
