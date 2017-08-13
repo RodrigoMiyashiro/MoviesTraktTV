@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0200B4984F9A2D918653840B /* Pods_mTraktTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFBA15CB057CB8637C66419 /* Pods_mTraktTV.framework */; };
+		75E4EC5E231DFB2C5969C517 /* Pods_mTraktTVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D7F5EDA47D16EC87082451 /* Pods_mTraktTVTests.framework */; };
+		7A0841E170E59D236D5AC94D /* Pods_mTraktTVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4638898BB01DD9F92A32A0 /* Pods_mTraktTVUITests.framework */; };
 		C6A983011F40AF3F00EB7290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983001F40AF3F00EB7290 /* AppDelegate.swift */; };
 		C6A983031F40AF3F00EB7290 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983021F40AF3F00EB7290 /* ViewController.swift */; };
 		C6A983061F40AF3F00EB7290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A983041F40AF3F00EB7290 /* Main.storyboard */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BFBA15CB057CB8637C66419 /* Pods_mTraktTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mTraktTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		732ED0BEE72CC93FDF2C58BD /* Pods-mTraktTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mTraktTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mTraktTV/Pods-mTraktTV.debug.xcconfig"; sourceTree = "<group>"; };
+		799C714E8A444820A6105FB8 /* Pods-mTraktTVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mTraktTVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mTraktTVTests/Pods-mTraktTVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A8411B07360FFC382D3A48E /* Pods-mTraktTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mTraktTVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mTraktTVUITests/Pods-mTraktTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5EA587526ACDD437DBE6452 /* Pods-mTraktTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mTraktTVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mTraktTVUITests/Pods-mTraktTVUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C6A982FD1F40AF3F00EB7290 /* mTraktTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mTraktTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A983001F40AF3F00EB7290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6A983021F40AF3F00EB7290 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		C6A9831F1F40AF4000EB7290 /* mTraktTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mTraktTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A983231F40AF4000EB7290 /* mTraktTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mTraktTVUITests.swift; sourceTree = "<group>"; };
 		C6A983251F40AF4000EB7290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D7F5EDA47D16EC87082451 /* Pods_mTraktTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mTraktTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4638898BB01DD9F92A32A0 /* Pods_mTraktTVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mTraktTVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1617C0610EC59B9F142DF89 /* Pods-mTraktTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mTraktTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-mTraktTV/Pods-mTraktTV.release.xcconfig"; sourceTree = "<group>"; };
+		EB3064D508B02FD5851E110F /* Pods-mTraktTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mTraktTVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mTraktTVTests/Pods-mTraktTVTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0200B4984F9A2D918653840B /* Pods_mTraktTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E4EC5E231DFB2C5969C517 /* Pods_mTraktTVTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0841E170E59D236D5AC94D /* Pods_mTraktTVUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3340FE2EC605442383386A52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BFBA15CB057CB8637C66419 /* Pods_mTraktTV.framework */,
+				C7D7F5EDA47D16EC87082451 /* Pods_mTraktTVTests.framework */,
+				CB4638898BB01DD9F92A32A0 /* Pods_mTraktTVUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E2BBAB713F091404333DE02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				732ED0BEE72CC93FDF2C58BD /* Pods-mTraktTV.debug.xcconfig */,
+				D1617C0610EC59B9F142DF89 /* Pods-mTraktTV.release.xcconfig */,
+				799C714E8A444820A6105FB8 /* Pods-mTraktTVTests.debug.xcconfig */,
+				EB3064D508B02FD5851E110F /* Pods-mTraktTVTests.release.xcconfig */,
+				9A8411B07360FFC382D3A48E /* Pods-mTraktTVUITests.debug.xcconfig */,
+				A5EA587526ACDD437DBE6452 /* Pods-mTraktTVUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C6A982F41F40AF3F00EB7290 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				C6A983171F40AF4000EB7290 /* mTraktTVTests */,
 				C6A983221F40AF4000EB7290 /* mTraktTVUITests */,
 				C6A982FE1F40AF3F00EB7290 /* Products */,
+				3E2BBAB713F091404333DE02 /* Pods */,
+				3340FE2EC605442383386A52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6A983281F40AF4000EB7290 /* Build configuration list for PBXNativeTarget "mTraktTV" */;
 			buildPhases = (
+				76EDFF68B4CB7EFB015A0830 /* [CP] Check Pods Manifest.lock */,
 				C6A982F91F40AF3F00EB7290 /* Sources */,
 				C6A982FA1F40AF3F00EB7290 /* Frameworks */,
 				C6A982FB1F40AF3F00EB7290 /* Resources */,
+				9709CCC2E455019E7A8F03E7 /* [CP] Embed Pods Frameworks */,
+				78AE3E0602235900A20129B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6A9832B1F40AF4000EB7290 /* Build configuration list for PBXNativeTarget "mTraktTVTests" */;
 			buildPhases = (
+				79EB79FF747222815EEF29DD /* [CP] Check Pods Manifest.lock */,
 				C6A983101F40AF4000EB7290 /* Sources */,
 				C6A983111F40AF4000EB7290 /* Frameworks */,
 				C6A983121F40AF4000EB7290 /* Resources */,
+				DB1B2937E15D9E7B321701F4 /* [CP] Embed Pods Frameworks */,
+				A322FF195BE777B8FE1AD64D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6A9832E1F40AF4000EB7290 /* Build configuration list for PBXNativeTarget "mTraktTVUITests" */;
 			buildPhases = (
+				FD63429A2868A336A5E768CA /* [CP] Check Pods Manifest.lock */,
 				C6A9831B1F40AF4000EB7290 /* Sources */,
 				C6A9831C1F40AF4000EB7290 /* Frameworks */,
 				C6A9831D1F40AF4000EB7290 /* Resources */,
+				6FDD2F0CD2A811A80D01B4AC /* [CP] Embed Pods Frameworks */,
+				B07064CD959319AD5C1AFD75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +308,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FDD2F0CD2A811A80D01B4AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mTraktTVUITests/Pods-mTraktTVUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76EDFF68B4CB7EFB015A0830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78AE3E0602235900A20129B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mTraktTV/Pods-mTraktTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79EB79FF747222815EEF29DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9709CCC2E455019E7A8F03E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mTraktTV/Pods-mTraktTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A322FF195BE777B8FE1AD64D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mTraktTVTests/Pods-mTraktTVTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B07064CD959319AD5C1AFD75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mTraktTVUITests/Pods-mTraktTVUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB1B2937E15D9E7B321701F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mTraktTVTests/Pods-mTraktTVTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD63429A2868A336A5E768CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C6A982F91F40AF3F00EB7290 /* Sources */ = {
@@ -417,6 +604,7 @@
 		};
 		C6A983291F40AF4000EB7290 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732ED0BEE72CC93FDF2C58BD /* Pods-mTraktTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4DRM7LH39Z;
@@ -430,6 +618,7 @@
 		};
 		C6A9832A1F40AF4000EB7290 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1617C0610EC59B9F142DF89 /* Pods-mTraktTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4DRM7LH39Z;
@@ -443,6 +632,7 @@
 		};
 		C6A9832C1F40AF4000EB7290 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799C714E8A444820A6105FB8 /* Pods-mTraktTVTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +648,7 @@
 		};
 		C6A9832D1F40AF4000EB7290 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3064D508B02FD5851E110F /* Pods-mTraktTVTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +664,7 @@
 		};
 		C6A9832F1F40AF4000EB7290 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8411B07360FFC382D3A48E /* Pods-mTraktTVUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4DRM7LH39Z;
@@ -487,6 +679,7 @@
 		};
 		C6A983301F40AF4000EB7290 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5EA587526ACDD437DBE6452 /* Pods-mTraktTVUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4DRM7LH39Z;
