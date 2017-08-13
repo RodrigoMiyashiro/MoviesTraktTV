@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6A983011F40AF3F00EB7290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983001F40AF3F00EB7290 /* AppDelegate.swift */; };
+		C6A983031F40AF3F00EB7290 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983021F40AF3F00EB7290 /* ViewController.swift */; };
+		C6A983061F40AF3F00EB7290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A983041F40AF3F00EB7290 /* Main.storyboard */; };
+		C6A983091F40AF3F00EB7290 /* mTraktTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6A983071F40AF3F00EB7290 /* mTraktTV.xcdatamodeld */; };
+		C6A9830B1F40AF3F00EB7290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A9830A1F40AF3F00EB7290 /* Assets.xcassets */; };
+		C6A9830E1F40AF3F00EB7290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A9830C1F40AF3F00EB7290 /* LaunchScreen.storyboard */; };
+		C6A983191F40AF4000EB7290 /* mTraktTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983181F40AF4000EB7290 /* mTraktTVTests.swift */; };
+		C6A983241F40AF4000EB7290 /* mTraktTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983231F40AF4000EB7290 /* mTraktTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6A983151F40AF4000EB7290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A982F51F40AF3F00EB7290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6A982FC1F40AF3F00EB7290;
+			remoteInfo = mTraktTV;
+		};
+		C6A983201F40AF4000EB7290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6A982F51F40AF3F00EB7290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6A982FC1F40AF3F00EB7290;
+			remoteInfo = mTraktTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6A982FD1F40AF3F00EB7290 /* mTraktTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mTraktTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A983001F40AF3F00EB7290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6A983021F40AF3F00EB7290 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6A983051F40AF3F00EB7290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6A983081F40AF3F00EB7290 /* mTraktTV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mTraktTV.xcdatamodel; sourceTree = "<group>"; };
+		C6A9830A1F40AF3F00EB7290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6A9830D1F40AF3F00EB7290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6A9830F1F40AF3F00EB7290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A983141F40AF4000EB7290 /* mTraktTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mTraktTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A983181F40AF4000EB7290 /* mTraktTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mTraktTVTests.swift; sourceTree = "<group>"; };
+		C6A9831A1F40AF4000EB7290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A9831F1F40AF4000EB7290 /* mTraktTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mTraktTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A983231F40AF4000EB7290 /* mTraktTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mTraktTVUITests.swift; sourceTree = "<group>"; };
+		C6A983251F40AF4000EB7290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6A982FA1F40AF3F00EB7290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A983111F40AF4000EB7290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A9831C1F40AF4000EB7290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6A982F41F40AF3F00EB7290 = {
+			isa = PBXGroup;
+			children = (
+				C6A982FF1F40AF3F00EB7290 /* mTraktTV */,
+				C6A983171F40AF4000EB7290 /* mTraktTVTests */,
+				C6A983221F40AF4000EB7290 /* mTraktTVUITests */,
+				C6A982FE1F40AF3F00EB7290 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6A982FE1F40AF3F00EB7290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6A982FD1F40AF3F00EB7290 /* mTraktTV.app */,
+				C6A983141F40AF4000EB7290 /* mTraktTVTests.xctest */,
+				C6A9831F1F40AF4000EB7290 /* mTraktTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A982FF1F40AF3F00EB7290 /* mTraktTV */ = {
+			isa = PBXGroup;
+			children = (
+				C6A983001F40AF3F00EB7290 /* AppDelegate.swift */,
+				C6A983021F40AF3F00EB7290 /* ViewController.swift */,
+				C6A983041F40AF3F00EB7290 /* Main.storyboard */,
+				C6A9830A1F40AF3F00EB7290 /* Assets.xcassets */,
+				C6A9830C1F40AF3F00EB7290 /* LaunchScreen.storyboard */,
+				C6A9830F1F40AF3F00EB7290 /* Info.plist */,
+				C6A983071F40AF3F00EB7290 /* mTraktTV.xcdatamodeld */,
+			);
+			path = mTraktTV;
+			sourceTree = "<group>";
+		};
+		C6A983171F40AF4000EB7290 /* mTraktTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6A983181F40AF4000EB7290 /* mTraktTVTests.swift */,
+				C6A9831A1F40AF4000EB7290 /* Info.plist */,
+			);
+			path = mTraktTVTests;
+			sourceTree = "<group>";
+		};
+		C6A983221F40AF4000EB7290 /* mTraktTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6A983231F40AF4000EB7290 /* mTraktTVUITests.swift */,
+				C6A983251F40AF4000EB7290 /* Info.plist */,
+			);
+			path = mTraktTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6A982FC1F40AF3F00EB7290 /* mTraktTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A983281F40AF4000EB7290 /* Build configuration list for PBXNativeTarget "mTraktTV" */;
+			buildPhases = (
+				C6A982F91F40AF3F00EB7290 /* Sources */,
+				C6A982FA1F40AF3F00EB7290 /* Frameworks */,
+				C6A982FB1F40AF3F00EB7290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mTraktTV;
+			productName = mTraktTV;
+			productReference = C6A982FD1F40AF3F00EB7290 /* mTraktTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6A983131F40AF4000EB7290 /* mTraktTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A9832B1F40AF4000EB7290 /* Build configuration list for PBXNativeTarget "mTraktTVTests" */;
+			buildPhases = (
+				C6A983101F40AF4000EB7290 /* Sources */,
+				C6A983111F40AF4000EB7290 /* Frameworks */,
+				C6A983121F40AF4000EB7290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6A983161F40AF4000EB7290 /* PBXTargetDependency */,
+			);
+			name = mTraktTVTests;
+			productName = mTraktTVTests;
+			productReference = C6A983141F40AF4000EB7290 /* mTraktTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6A9831E1F40AF4000EB7290 /* mTraktTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A9832E1F40AF4000EB7290 /* Build configuration list for PBXNativeTarget "mTraktTVUITests" */;
+			buildPhases = (
+				C6A9831B1F40AF4000EB7290 /* Sources */,
+				C6A9831C1F40AF4000EB7290 /* Frameworks */,
+				C6A9831D1F40AF4000EB7290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6A983211F40AF4000EB7290 /* PBXTargetDependency */,
+			);
+			name = mTraktTVUITests;
+			productName = mTraktTVUITests;
+			productReference = C6A9831F1F40AF4000EB7290 /* mTraktTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6A982F51F40AF3F00EB7290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rodrigo Miyashiro";
+				TargetAttributes = {
+					C6A982FC1F40AF3F00EB7290 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4DRM7LH39Z;
+						ProvisioningStyle = Automatic;
+					};
+					C6A983131F40AF4000EB7290 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4DRM7LH39Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6A982FC1F40AF3F00EB7290;
+					};
+					C6A9831E1F40AF4000EB7290 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4DRM7LH39Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6A982FC1F40AF3F00EB7290;
+					};
+				};
+			};
+			buildConfigurationList = C6A982F81F40AF3F00EB7290 /* Build configuration list for PBXProject "mTraktTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6A982F41F40AF3F00EB7290;
+			productRefGroup = C6A982FE1F40AF3F00EB7290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6A982FC1F40AF3F00EB7290 /* mTraktTV */,
+				C6A983131F40AF4000EB7290 /* mTraktTVTests */,
+				C6A9831E1F40AF4000EB7290 /* mTraktTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6A982FB1F40AF3F00EB7290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A9830E1F40AF3F00EB7290 /* LaunchScreen.storyboard in Resources */,
+				C6A9830B1F40AF3F00EB7290 /* Assets.xcassets in Resources */,
+				C6A983061F40AF3F00EB7290 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A983121F40AF4000EB7290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A9831D1F40AF4000EB7290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6A982F91F40AF3F00EB7290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A983091F40AF3F00EB7290 /* mTraktTV.xcdatamodeld in Sources */,
+				C6A983031F40AF3F00EB7290 /* ViewController.swift in Sources */,
+				C6A983011F40AF3F00EB7290 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A983101F40AF4000EB7290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A983191F40AF4000EB7290 /* mTraktTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A9831B1F40AF4000EB7290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A983241F40AF4000EB7290 /* mTraktTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6A983161F40AF4000EB7290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6A982FC1F40AF3F00EB7290 /* mTraktTV */;
+			targetProxy = C6A983151F40AF4000EB7290 /* PBXContainerItemProxy */;
+		};
+		C6A983211F40AF4000EB7290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6A982FC1F40AF3F00EB7290 /* mTraktTV */;
+			targetProxy = C6A983201F40AF4000EB7290 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6A983041F40AF3F00EB7290 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A983051F40AF3F00EB7290 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6A9830C1F40AF3F00EB7290 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6A9830D1F40AF3F00EB7290 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6A983261F40AF4000EB7290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6A983271F40AF4000EB7290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6A983291F40AF4000EB7290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = mTraktTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmiyashiro.mTraktTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C6A9832A1F40AF4000EB7290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = mTraktTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmiyashiro.mTraktTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C6A9832C1F40AF4000EB7290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = mTraktTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmiyashiro.mTraktTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mTraktTV.app/mTraktTV";
+			};
+			name = Debug;
+		};
+		C6A9832D1F40AF4000EB7290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = mTraktTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmiyashiro.mTraktTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mTraktTV.app/mTraktTV";
+			};
+			name = Release;
+		};
+		C6A9832F1F40AF4000EB7290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = mTraktTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmiyashiro.mTraktTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mTraktTV;
+			};
+			name = Debug;
+		};
+		C6A983301F40AF4000EB7290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = mTraktTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmiyashiro.mTraktTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mTraktTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6A982F81F40AF3F00EB7290 /* Build configuration list for PBXProject "mTraktTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A983261F40AF4000EB7290 /* Debug */,
+				C6A983271F40AF4000EB7290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A983281F40AF4000EB7290 /* Build configuration list for PBXNativeTarget "mTraktTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A983291F40AF4000EB7290 /* Debug */,
+				C6A9832A1F40AF4000EB7290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6A9832B1F40AF4000EB7290 /* Build configuration list for PBXNativeTarget "mTraktTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A9832C1F40AF4000EB7290 /* Debug */,
+				C6A9832D1F40AF4000EB7290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6A9832E1F40AF4000EB7290 /* Build configuration list for PBXNativeTarget "mTraktTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A9832F1F40AF4000EB7290 /* Debug */,
+				C6A983301F40AF4000EB7290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C6A983071F40AF3F00EB7290 /* mTraktTV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C6A983081F40AF3F00EB7290 /* mTraktTV.xcdatamodel */,
+			);
+			currentVersion = C6A983081F40AF3F00EB7290 /* mTraktTV.xcdatamodel */;
+			path = mTraktTV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C6A982F51F40AF3F00EB7290 /* Project object */;
+}
