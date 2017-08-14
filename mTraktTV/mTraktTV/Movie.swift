@@ -23,15 +23,7 @@ class Movie: NSObject
         ids = IdsMovie()
         images = MovieImage()
     }
-    
-    init(title: String, year: Int, trakt: Int, slug: String, imdb: String, tmdb: Int)
-    {
-        self.title = title
-        self.year = year
-        self.ids = IdsMovie(trakt: trakt, slug: slug, imdb: imdb, tmdb: tmdb)
-        self.images = MovieImage(name: "", tmdbID: "", imdbID: "", imgPoster: [ImagePoster](), imgThumb: [ImageThumb](), imgBackground: [ImageBackground]())
-    }
-    
+        
     init(dataJSON: JSON)
     {
         self.title = dataJSON["title"].stringValue

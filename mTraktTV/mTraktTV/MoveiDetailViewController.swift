@@ -8,17 +8,37 @@
 
 import UIKit
 
-class MoveiDetailViewController: UIViewController {
-
-    override func viewDidLoad() {
+class MoveiDetailViewController: UIViewController
+{
+    
+    // MARK: - Lets and Vars
+    internal var fullMovie = MovieDetailViewModel()
+    
+    
+    // MARK: - IBOutlets
+    @IBOutlet weak var bannerCollectionView: UICollectionView!
+    @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var lblReleaseDate: UILabel!
+    @IBOutlet weak var lblRuntime: UILabel!
+    @IBOutlet weak var lblTagline: UILabel!
+    @IBOutlet weak var lblOverview: UILabel!
+    @IBOutlet weak var lblRating: UILabel!
+    @IBOutlet weak var lblGenres: UILabel!
+    
+    
+    
+    // MARK: - Life Cycle
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
     }
     
 
@@ -32,4 +52,22 @@ class MoveiDetailViewController: UIViewController {
     }
     */
 
+}
+
+
+extension MoveiDetailViewController: UICollectionViewDataSource
+{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
+    {
+        return 3
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
+    {
+        let Cellidentifier = "bannerCollectionCell"
+        let cell = bannerCollectionView.dequeueReusableCell(withReuseIdentifier: Cellidentifier, for: indexPath) as! BannerCollectionViewCell
+        
+        
+        return cell
+    }
 }
