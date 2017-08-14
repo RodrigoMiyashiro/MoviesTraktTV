@@ -13,7 +13,7 @@ class RequestLibWithImgs: NSObject
 {
     static func getImages(withImdb imdb: String,completion: @escaping(Any?) -> Void)
     {
-        let url = URL.baseTrakt.rawValue +
+        let url = Url.baseFanart.rawValue +
             URLComplement.movies.rawValue +
             imdb +
             URLComplement.apiKey.rawValue +

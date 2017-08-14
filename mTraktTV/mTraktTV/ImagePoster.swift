@@ -24,5 +24,5 @@ class ImagePoster: ImageElement
     override init(dataJSON: JSON)
     {
         super.init(dataJSON: dataJSON)
-    }
+    }    
 }

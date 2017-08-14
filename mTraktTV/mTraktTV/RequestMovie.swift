@@ -13,7 +13,7 @@ class RequestMovie: NSObject
 {
     static func getMovies(completion: @escaping(Any?) -> Void)
     {
-        let url = URL.baseTrakt.rawValue + URLComplement.movies.rawValue + URLComplement.popular.rawValue
+        let url = Url.baseTrakt.rawValue + URLComplement.movies.rawValue + URLComplement.popular.rawValue
         
         Request.getFrom(url, nil, Header.headerToRequest()) { (result) in
             if let data = result as? Data

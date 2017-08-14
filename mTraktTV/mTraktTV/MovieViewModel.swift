@@ -11,14 +11,15 @@ import SwiftyJSON
 
 class MovieViewModel: NSObject
 {
-    private var movies: [Movie]
+    internal var movies: [Movie]
     
     override init()
     {
         movies = [Movie]()
+        
     }
     
-    func loadMovieList()
+    func loadMovieList(completion: @escaping() -> Void)
     {
         RequestMovie.getMovies { (result) in
             if let jsonArrayData = result as? [JSON]
@@ -28,14 +29,14 @@ class MovieViewModel: NSObject
                     let newMovie = Movie(dataJSON: json)
                     self.movies.append(newMovie)
                 }
-                
-                print("--\n\(self.movies)\n")
             }
             
             if let error = result as? Error
             {
                 print("-->> Error Get Popular Movies: \(error)")
             }
+            
+            completion()
         }
     }
 }

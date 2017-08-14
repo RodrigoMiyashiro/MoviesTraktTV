@@ -44,9 +44,9 @@ class MovieImage: NSObject
         self.name = dataJSON["name"].stringValue
         self.tmdbID = dataJSON["tmdb_id"].stringValue
         self.imdbID = dataJSON["imdb_id"].stringValue
-        self.imgPoster = arrayImg(array: dataJSON["movieposter"].arrayValue) as! [ImagePoster]
-        self.imgThumb = arrayImg(array: dataJSON["moviethumb"].arrayValue) as! [ImageThumb]
-        self.imgBackground = arrayImg(array: dataJSON["moviebackground"].arrayValue) as! [ImageBackground]
+        self.imgPoster = ArrayImagePoster.images(with: dataJSON["movieposter"].arrayValue) //arrayImg(array: dataJSON["movieposter"].arrayValue) as! [ImagePoster]
+        self.imgThumb = ArrayImageThumb.images(with: dataJSON["moviethumb"].arrayValue) //arrayImg(array: dataJSON["moviethumb"].arrayValue) as! [ImageThumb]
+        self.imgBackground = ArrayImageBackground.images(with: dataJSON["moviebackground"].arrayValue) //arrayImg(array: dataJSON["moviebackground"].arrayValue) as! [ImageBackground]
     }
     
     private func arrayImg(array: [JSON]) -> [ImageElement]

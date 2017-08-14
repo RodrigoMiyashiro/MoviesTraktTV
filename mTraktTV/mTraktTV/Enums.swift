@@ -8,10 +8,10 @@
 
 import Foundation
 
-enum URL: String
+enum Url: String
 {
     case baseTrakt = "https://api.trakt.tv/"
-    case baseFanart = "baseTrakt"
+    case baseFanart = "http://webservice.fanart.tv/v3/"
 }
 
 enum URLComplement: String
