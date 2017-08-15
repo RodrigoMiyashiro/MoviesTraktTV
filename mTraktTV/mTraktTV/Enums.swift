@@ -19,6 +19,7 @@ enum URLComplement: String
     case movies = "movies/"
     case popular = "popular"
     case apiKey = "?api_key="
+    case page = "?page="
     case fullDescription = "?extended=full"
     case search = "search/movie?query="
 }

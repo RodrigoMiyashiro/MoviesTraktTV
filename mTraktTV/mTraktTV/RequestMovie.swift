@@ -32,7 +32,7 @@ class RequestMovie: NSObject
     {
         let url = Url.baseTrakt.rawValue + URLComplement.movies.rawValue + slug + URLComplement.fullDescription.rawValue
         
-        Request.getFrom(url) { (result) in
+        Request.getFrom(url, nil, Header.headerToRequest()) { (result) in
             if let data = result as? Data
             {
                 completion(JSON(data))

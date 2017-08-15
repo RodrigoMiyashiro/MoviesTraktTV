@@ -12,6 +12,7 @@ class MoveiDetailViewController: UIViewController
 {
     
     // MARK: - Lets and Vars
+    var slug = ""
     internal var fullMovie = MovieDetailViewModel()
     
     
@@ -32,7 +33,7 @@ class MoveiDetailViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-
+        setMovieDetail()
     }
 
     override func didReceiveMemoryWarning()
@@ -41,33 +42,58 @@ class MoveiDetailViewController: UIViewController
 
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    func setMovieDetail()
+    {
+        Spinner.show(view: self.view)
+        fullMovie.loadMovieList(slug: slug) { 
+            self.lblTitle.text = self.fullMovie.movie.title
+            self.lblReleaseDate.text = String.convertDate(dateStr: self.fullMovie.movie.released)
+            self.lblRuntime.text = String(self.fullMovie.movie.runtime) + " min"
+            self.lblTagline.text = self.fullMovie.movie.tagline
+            self.lblOverview.text = self.fullMovie.movie.overview
+            self.lblRating.text = String(format: "%.2f", self.fullMovie.movie.rating)
+            self.lblGenres.text = String(describing: self.fullMovie.movie.genre.name).replacingOccurrences(of: "\"", with: "").replacingOccurrences(of: "[", with: "").replacingOccurrences(of: "]", with: "")
+            self.pageControl.numberOfPages = self.fullMovie.movie.images.imgThumb.count
+            
+            self.bannerCollectionView.reloadData()
+            Spinner.stopAnimating()
+        }
     }
-    */
-
 }
 
 
+// MARK: - Extension CollectionView DataSource
 extension MoveiDetailViewController: UICollectionViewDataSource
 {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
-        return 3
+        return fullMovie.movie.images.imgThumb.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
         let Cellidentifier = "bannerCollectionCell"
         let cell = bannerCollectionView.dequeueReusableCell(withReuseIdentifier: Cellidentifier, for: indexPath) as! BannerCollectionViewCell
+        let row = indexPath.row
         
+        cell.imageBanner.sd_setIndicatorStyle(UIActivityIndicatorViewStyle.gray)
+        cell.imageBanner.sd_addActivityIndicator()
+        cell.imageBanner.sd_setImage(with: URL(string: fullMovie.movie.images.imgThumb[row].url), placeholderImage: UIImage(named: "img_placeholder"))
+
         
         return cell
+    }
+}
+
+extension MoveiDetailViewController: UIScrollViewDelegate
+{
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView)
+    {
+        let pageWidth:CGFloat = bannerCollectionView.frame.width
+        let contentOffset:CGFloat = bannerCollectionView.contentOffset.x
+        let currentPage:CGFloat = floor((contentOffset - pageWidth / 2) / pageWidth) + 1
+        
+        pageControl.currentPage = Int(currentPage);
     }
 }
