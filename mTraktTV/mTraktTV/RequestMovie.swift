@@ -27,4 +27,20 @@ class RequestMovie: NSObject
             }
         }
     }
+    
+    static func getSpecificMovie(slug: String, completion: @escaping(Any?) -> Void)
+    {
+        let url = Url.baseTrakt.rawValue + URLComplement.movies.rawValue + slug + URLComplement.fullDescription.rawValue
+        
+        Request.getFrom(url, nil, Header.headerToRequest()) { (result) in
+            if let data = result as? Data
+            {
+                completion(JSON(data))
+            }
+            if let error = result as? Error
+            {
+                completion(error)
+            }
+        }
+    }
 }

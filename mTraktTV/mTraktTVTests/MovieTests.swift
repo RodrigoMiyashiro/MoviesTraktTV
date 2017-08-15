@@ -15,7 +15,6 @@ class MovieTests: XCTestCase
 {
     
     let movieSimple = Movie()
-    let movieWithData = Movie(title: "Test", year: 2017, trakt: 1, slug: "test-2017", imdb: "xyz123", tmdb: 11)
     
 //    let json: JSON = [ "title": "Deadpool", "year": 2016, "ids": [ "trakt": 190430, "slug": "deadpool-2016", "imdb": "tt1431045", "tmdb": 293660]]
 //    let movieWithDataJSON = Movie(dataJSON: json)
@@ -44,7 +43,7 @@ class MovieTests: XCTestCase
     
     func testMovieWithData()
     {
-        XCTAssertTrue(movieWithData.ids.trakt == 1)
+        
     }
     
 }

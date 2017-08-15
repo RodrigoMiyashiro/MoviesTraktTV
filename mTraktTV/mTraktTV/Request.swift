@@ -17,6 +17,7 @@ class Request: NSObject
             .validate(statusCode: 200..<405)
             .responseJSON { (response) in
                 print("request url: \(String(describing: response.request))")
+                print("\n-->> \(String(describing: response.response?.allHeaderFields))\nlimit:\(String(describing: (response.response?.allHeaderFields as! NSDictionary)["x-pagination-limit"]))\n")
                 
                 switch response.result {
                 case .success:

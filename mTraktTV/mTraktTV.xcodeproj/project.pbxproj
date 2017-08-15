@@ -45,6 +45,13 @@
 		C6A983731F410F3800EB7290 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983721F410F3800EB7290 /* UIViewController.swift */; };
 		C6A983791F4148DA00EB7290 /* ArrayImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983781F4148DA00EB7290 /* ArrayImage.swift */; };
 		C6A9837C1F414F4F00EB7290 /* MoveiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9837B1F414F4F00EB7290 /* MoveiDetailViewController.swift */; };
+		C6A9837E1F415C3600EB7290 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9837D1F415C3600EB7290 /* BannerCollectionViewCell.swift */; };
+		C6A983801F415D0600EB7290 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9837F1F415D0600EB7290 /* MovieDetailViewModel.swift */; };
+		C6A983831F415D5800EB7290 /* MovieFull.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983821F415D5800EB7290 /* MovieFull.swift */; };
+		C6A983851F4164CB00EB7290 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983841F4164CB00EB7290 /* Genre.swift */; };
+		C6A983871F4286CE00EB7290 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983861F4286CE00EB7290 /* String.swift */; };
+		C6A9838A1F428A1B00EB7290 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A983891F428A1B00EB7290 /* Spinner.swift */; };
+		C6A9838C1F428B8600EB7290 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A9838B1F428B8600EB7290 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +118,13 @@
 		C6A983721F410F3800EB7290 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		C6A983781F4148DA00EB7290 /* ArrayImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayImage.swift; sourceTree = "<group>"; };
 		C6A9837B1F414F4F00EB7290 /* MoveiDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveiDetailViewController.swift; sourceTree = "<group>"; };
+		C6A9837D1F415C3600EB7290 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6A9837F1F415D0600EB7290 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		C6A983821F415D5800EB7290 /* MovieFull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieFull.swift; sourceTree = "<group>"; };
+		C6A983841F4164CB00EB7290 /* Genre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		C6A983861F4286CE00EB7290 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		C6A983891F428A1B00EB7290 /* Spinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		C6A9838B1F428B8600EB7290 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		C7D7F5EDA47D16EC87082451 /* Pods_mTraktTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mTraktTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4638898BB01DD9F92A32A0 /* Pods_mTraktTVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mTraktTVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1617C0610EC59B9F142DF89 /* Pods-mTraktTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mTraktTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-mTraktTV/Pods-mTraktTV.release.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +210,7 @@
 				C6A983001F40AF3F00EB7290 /* AppDelegate.swift */,
 				C6A983401F40CF3A00EB7290 /* Utils */,
 				C6A983311F40B7E800EB7290 /* Movie */,
+				C6A983811F415D2D00EB7290 /* Movie Full */,
 				C6A9836E1F40FDDF00EB7290 /* List Movies */,
 				C6A9837A1F414F3900EB7290 /* Movie Detail */,
 				C6A983041F40AF3F00EB7290 /* Main.storyboard */,
@@ -249,6 +264,7 @@
 		C6A983401F40CF3A00EB7290 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C6A983881F428A0800EB7290 /* Activity Indicator */,
 				C6A9834A1F40D17300EB7290 /* Header */,
 				C6A983421F40CF4A00EB7290 /* Requests */,
 				C6A983431F40CF5600EB7290 /* Manager Requests */,
@@ -317,6 +333,8 @@
 			isa = PBXGroup;
 			children = (
 				C6A983721F410F3800EB7290 /* UIViewController.swift */,
+				C6A983861F4286CE00EB7290 /* String.swift */,
+				C6A9838B1F428B8600EB7290 /* UIView.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -325,8 +343,27 @@
 			isa = PBXGroup;
 			children = (
 				C6A9837B1F414F4F00EB7290 /* MoveiDetailViewController.swift */,
+				C6A9837D1F415C3600EB7290 /* BannerCollectionViewCell.swift */,
 			);
 			name = "Movie Detail";
+			sourceTree = "<group>";
+		};
+		C6A983811F415D2D00EB7290 /* Movie Full */ = {
+			isa = PBXGroup;
+			children = (
+				C6A983821F415D5800EB7290 /* MovieFull.swift */,
+				C6A983841F4164CB00EB7290 /* Genre.swift */,
+				C6A9837F1F415D0600EB7290 /* MovieDetailViewModel.swift */,
+			);
+			name = "Movie Full";
+			sourceTree = "<group>";
+		};
+		C6A983881F428A0800EB7290 /* Activity Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				C6A983891F428A1B00EB7290 /* Spinner.swift */,
+			);
+			name = "Activity Indicator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -617,16 +654,23 @@
 				C6A983091F40AF3F00EB7290 /* mTraktTV.xcdatamodeld in Sources */,
 				C6A9834C1F40D18A00EB7290 /* Header.swift in Sources */,
 				C6A983731F410F3800EB7290 /* UIViewController.swift in Sources */,
+				C6A9837E1F415C3600EB7290 /* BannerCollectionViewCell.swift in Sources */,
 				C6A9835B1F40F19D00EB7290 /* ImagePoster.swift in Sources */,
 				C6A9837C1F414F4F00EB7290 /* MoveiDetailViewController.swift in Sources */,
+				C6A983801F415D0600EB7290 /* MovieDetailViewModel.swift in Sources */,
+				C6A9838C1F428B8600EB7290 /* UIView.swift in Sources */,
 				C6A9835F1F40F1BD00EB7290 /* ImageBackground.swift in Sources */,
 				C6A9834E1F40D30600EB7290 /* Enums.swift in Sources */,
 				C6A983791F4148DA00EB7290 /* ArrayImage.swift in Sources */,
 				C6A9835D1F40F1B000EB7290 /* ImageThumb.swift in Sources */,
+				C6A983831F415D5800EB7290 /* MovieFull.swift in Sources */,
 				C6A983451F40D01900EB7290 /* Request.swift in Sources */,
 				C6A983331F40B80100EB7290 /* Movie.swift in Sources */,
 				C6A983691F40FD3300EB7290 /* ListMoviesViewController.swift in Sources */,
+				C6A983851F4164CB00EB7290 /* Genre.swift in Sources */,
 				C6A983011F40AF3F00EB7290 /* AppDelegate.swift in Sources */,
+				C6A9838A1F428A1B00EB7290 /* Spinner.swift in Sources */,
+				C6A983871F4286CE00EB7290 /* String.swift in Sources */,
 				C6A983371F40C36A00EB7290 /* IdsMovie.swift in Sources */,
 				C6A983491F40D0D200EB7290 /* RequestMovie.swift in Sources */,
 				C6A9833F1F40C90B00EB7290 /* MovieViewModel.swift in Sources */,

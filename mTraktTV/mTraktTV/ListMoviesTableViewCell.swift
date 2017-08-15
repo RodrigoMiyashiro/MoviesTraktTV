@@ -34,7 +34,10 @@ class ListMoviesTableViewCell: UITableViewCell
                     if let imgMovie = result as? MovieImage
                     {
                         movie.images = imgMovie
-                        self.imgBanner.sd_setImage(with: URL(string: (imgMovie.imgThumb.first?.url)!), placeholderImage: UIImage(named: "img_placeholder"))
+                        if let urlImg = imgMovie.imgThumb.first?.url
+                        {
+                            self.imgBanner.sd_setImage(with: URL(string: urlImg), placeholderImage: UIImage(named: "img_placeholder"))
+                        }
                     }
                     if let _ = result as? Error
                     {

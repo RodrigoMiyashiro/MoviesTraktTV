@@ -24,8 +24,10 @@ class ListMoviesViewController: UIViewController
         super.viewDidLoad()
 
         configTableView()
-        listMovies.loadMovieList { 
+        Spinner.show(view: self.view)
+        listMovies.loadMovieList {
             self.listMovieTableView.reloadData()
+            Spinner.stopAnimating()
         }
     }
     
@@ -44,15 +46,20 @@ class ListMoviesViewController: UIViewController
     }
     
 
-    /*
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "segueMovieDetail"
+        {
+            let rowSelected = listMovieTableView.indexPathForSelectedRow?.row
+            let movie = listMovies.movies[rowSelected!]
+            
+            let detailMovie = segue.destination as! MoveiDetailViewController
+            detailMovie.slug = movie.ids.slug
+        }
     }
-    */
+    
 
 }
 
